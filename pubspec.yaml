@@ -1,0 +1,31 @@
+name: state_manager
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  flutter_riverpod: ^3.3.1
+  riverpod_annotation: ^4.0.2
+  build_runner: ^2.15.0
+  riverpod_generator: ^4.0.3
+  dio: ^5.9.2
+  math_expressions: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
